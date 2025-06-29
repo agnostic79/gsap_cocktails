@@ -1,3 +1,9 @@
 # GSAP Cocktails Landing
 
-My GSAP demo.
+A little energizing GSAP demo.
+
+Accents:
+
+- React
+- GSAP
+- Tailwind
