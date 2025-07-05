@@ -24,6 +24,10 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  overflow-y: hidden;
+}
+
 @utility flex-center {
   @apply flex justify-center items-center;
 }
@@ -44,7 +48,7 @@ body {
 }
 
 @utility radial-gradient {
-  background: radial-gradient(circle at center, #434343 0%, #000 50%, transparent 100%);
+  background: radial-gradient(circle at center, #434343 0%, #000 30%, transparent 100%);
 }
 
 @utility masked-img {
@@ -236,7 +240,7 @@ body {
   }
 
   #art {
-    @apply flex-center flex-col min-h-dvh p-5 mt-20 relative radial-gradient;
+    @apply flex-center flex-col min-h-dvh p-5 mt-20 relative;
 
     h2 {
       @apply relative md:text-[20vw] text-8xl text-nowrap leading-none font-modern-negra text-center text-[#505050] mb-8;
@@ -270,7 +274,7 @@ body {
   }
 
   #menu {
-    @apply relative w-full md:mt-40 mt-0 2xl:px-0 px-5 py-20 radial-gradient;
+    @apply relative w-full md:mt-40 mt-0 2xl:px-0 px-5 py-20;
 
     #m-left-leaf {
       @apply object-contain absolute -bottom-20 left-0 md:w-fit w-1/3;
